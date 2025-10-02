@@ -31,13 +31,14 @@ public class Car
     public void MakeHonkNoise(string honkNoise)
     {
         HonkNoise = honkNoise;
-        Console.WriteLine($"{Make} {Model} has an engine noise that sounds like {honkNoise}");
+        Console.WriteLine($"{Make} {Model} has an honk noise that sounds like {honkNoise}");
     }
     
     //Default Constructor
     public Car()
     {
-       
+        CarLot.numberOfCars++;
+        //ClassName.StaticMember
     }
     
    //Custom Constructor To Initialize Values
