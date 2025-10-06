@@ -19,9 +19,6 @@ namespace CarLotSimulator
 
             // Set the properties utilizing the 3 different ways we learned about, one way for each car
             
-            //Check number of cars before creationg
-            Console.WriteLine($"Number of cars created: {CarLot.numberOfCars}");
-            
             //Car One
             var carOne = new Car();
             carOne.Make = "Ford";
@@ -34,9 +31,6 @@ namespace CarLotSimulator
             
             // Add carOne to ParkingLot
             carLotOne.ParkingLot.Add(carOne);
-            
-            //Check number of cars created
-            Console.WriteLine($"Number of cars created: {CarLot.numberOfCars}");
             
             
             //Car Two
@@ -53,9 +47,6 @@ namespace CarLotSimulator
             
             // Add carTwo to ParkingLot
             carLotOne.ParkingLot.Add(carTwo);
-            
-            //Check number of cars created
-            Console.WriteLine($"Number of cars created: {CarLot.numberOfCars}");
             
             //Car Three
             var carThree = new Car("Hyundai", "Palisade", 2024, true);
